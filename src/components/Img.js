@@ -13,9 +13,9 @@ export const Img = ({ author }) => {
         <img src={img} alt=""></img>
       </div>
       <ul>
+        <li>Nickname: {nickname}</li>
         <li>Occupation: {`${occupation} `}</li>
         <li>Status: {status}</li>
-        <li>Nickname: {nickname}</li>
       </ul>
     </>
   );
